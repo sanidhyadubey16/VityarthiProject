@@ -32,14 +32,17 @@ This is the project to managing personal expenses where expenses has become very
 
 # Steps to Install & Run the Project
 1️. Install Python 3.9 or newer.
+
 2. Download the following four files into the same directory:
 
     *storage.py
     *logic.py
     *view.py
-    *main.py  
-4. Open terminal / command prompt inside that folder .
-5.  Run the program using:
+    *main.py
+   
+3. Open terminal / command prompt inside that folder .
+
+4. Run the program using:
 python main.py
 
 ---
