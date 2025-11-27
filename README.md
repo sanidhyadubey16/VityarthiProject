@@ -35,10 +35,10 @@ This is the project to managing personal expenses where expenses has become very
 
 2. Download the following four files into the same directory:
 
-       *storage.py
-       *logic.py
-       *view.py
-       *main.py
+       storage.py
+       logic.py
+       view.py
+       main.py
       
 3. Open terminal / command prompt inside that folder .
 
