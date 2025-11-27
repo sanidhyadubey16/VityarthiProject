@@ -30,12 +30,33 @@ This is the project to managing personal expenses where expenses has become very
 
 ---
 
-# ▶️ Steps to Install & Run the Project
-1️⃣ Download/clone the repository  
-2️⃣ Make sure all  `.py` files are in the **same folder**  
-3️⃣ Open terminal / command prompt inside that folder  
-4️⃣ Run the program using:
+# Steps to Install & Run the Project
+1️. Install Python 3.9 or newer.
+2. Download the following four files into the same directory:
+
+    *storage.py
+    *logic.py
+    *view.py
+    *main.py  
+4. Open terminal / command prompt inside that folder .
+5.  Run the program using:
 python main.py
 
-# ▶️ Testing
-To test the program start by running it, multiple options would show up, choose task to be performed. Example: "Students and anyone who needs a simple, easy-to-use tool to track  their daily, weekly or monthly expenses."
+---
+
+ # Instructions for testing
+To test the program start by running it and follow these steps to test it :
+
+1.Add Expenses :  Add few expenses with different categories and amounts and make sure you enter a valid number.
+
+2.View All Expenses: Verify that all the expenses you added in first step are displayed in correct format(Date,Category,Amount,Note) and that the "Total Spent" value is calculated correctly.
+
+3. Show Category Totals: Verify that a total is calculated and displayed for each unique category and that categories with multiple entries are summed up to a single total.
+
+4. Search Expenses : Enter a keyword (e.g., a specific note or category name). Check that only matching expenses are displayed .
+
+5. Show Average Expense:  Verify that the displayed average expense is the Total Spent divided by the number of expenses.
+
+6. Clear All Expenses : 
+*Test Cancellation: Type no and verify that the clear operation is cancelled. 
+*Test Confirmation: Type yes to confirm. Then, re-check step 2 (View All Expenses) to confirm the list is empty.
