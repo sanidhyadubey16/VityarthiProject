@@ -14,9 +14,11 @@ This is the project to managing personal expenses where expenses has become very
 |---------|-------------|
 |Add Expense | Simple form interface to record new transactions. |
 | Transaction History | view of all past transactions. |
-| Profile Management | It allows users to update their profile details. |
-|Clear data|Option that clear all stored expenses.|
+| Show Category totals | It calculates and displays the total amount spent for each unique category.|
 |Search Function | Ability to find transactions.|
+|Show Avergae Expenses| It calculates and displays the total amount spent for each unique category.|
+|Clear data|Option that clear all stored expenses.|
+
 
 ---
 
